@@ -46,7 +46,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <h1>{msg[image - 1]}</h1>
+            <h1 className="text-white">{msg[image - 1]}</h1>
           </motion.div>
         </AnimatePresence>
       </div>
